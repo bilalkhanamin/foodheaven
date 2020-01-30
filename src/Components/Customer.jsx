@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../images/customer/1.png";
-import img2 from "../images/customer/2.png";
-import img3 from "../images/customer/3.png";
+import img1 from "../images/fooven/customer/1.png";
+import img2 from "../images/fooven/customer/2.png";
+import img3 from "../images/fooven/customer/3.png";
 
 class Customer extends Component {
   constructor() {
@@ -46,8 +46,8 @@ class Customer extends Component {
         <div className="feedback">
           <img src={r.profile} alt="person" />
           <h3>{r.name}</h3>
-          <span>{r.disgnation} </span>
           <p>{r.review}</p>
+          <span>{r.disgnation} </span>
         </div>
       );
     });

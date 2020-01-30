@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../images/blogs/1.png";
-import img2 from "../images/blogs/2.png";
-import img3 from "../images/blogs/3.png";
-import img4 from "../images/blogs/4.png";
+import img1 from "../images/fooven/blogs/1.png";
+import img2 from "../images/fooven/blogs/2.png";
+import img3 from "../images/fooven/blogs/3.png";
+import img4 from "../images/fooven/blogs/4.png";
 
 class Blogs extends Component {
   constructor() {

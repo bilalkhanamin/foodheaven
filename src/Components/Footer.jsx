@@ -1,7 +1,7 @@
 import React from "react";
-import facebook from "../images/fooven/facebook.svg";
-import instagram from "../images/fooven/instagram.svg";
-import twitter from "../images/fooven/twitter.svg";
+import facebook from "../images/fooven/icons/facebook.svg";
+import instagram from "../images/fooven/icons/instagram.svg";
+import twitter from "../images/fooven/icons/twitter.svg";
 
 function Footer() {
   return (

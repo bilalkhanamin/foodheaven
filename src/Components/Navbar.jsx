@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Link, withRouter} from "react-router-dom";
-import Logo from "../images/fooven/logo.svg";
-import Hamberger from "../images/fooven/hamburger.svg";
+import { Link} from "react-router-dom";
+import Logo from "../images/fooven/icons/logo.svg";
+import Hamberger from "../images/fooven/icons/hamburger.svg";
 class Navbar extends Component {
   constructor() {
     super();
